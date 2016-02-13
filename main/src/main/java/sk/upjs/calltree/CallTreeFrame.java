@@ -1,4 +1,4 @@
-package sk.upjs.paz.calltree;
+package sk.upjs.calltree;
 
 import java.util.*;
 import java.util.concurrent.Semaphore;
@@ -16,14 +16,15 @@ import javax.swing.JComboBox;
 import javax.swing.JScrollPane;
 import javax.swing.JButton;
 
-import sk.upjs.paz.calltree.CallTreeBuilder.CallTreeState;
-
 import java.awt.event.ActionListener;
 import java.awt.event.ActionEvent;
 import javax.swing.JSlider;
 import java.awt.BorderLayout;
 import javax.swing.JCheckBox;
 import javax.swing.event.ChangeListener;
+
+import sk.upjs.calltree.CallTreeBuilder.CallTreeState;
+
 import javax.swing.event.ChangeEvent;
 import java.awt.Toolkit;
 
@@ -188,7 +189,7 @@ class CallTreeFrame extends JFrame {
 
 	private void initComponents() {
 		setIconImage(Toolkit.getDefaultToolkit()
-				.getImage(CallTreeFrame.class.getResource("/sk/upjs/paz/calltree/images/tree.png")));
+				.getImage(CallTreeFrame.class.getResource("/sk/upjs/calltree/images/tree.png")));
 		setTitle("Call Tree Visualization");
 		setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
 		setBounds(100, 100, 757, 486);

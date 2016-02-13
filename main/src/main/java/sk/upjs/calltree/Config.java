@@ -1,4 +1,4 @@
-package sk.upjs.paz.calltree;
+package sk.upjs.calltree;
 
 import java.awt.*;
 

@@ -1,4 +1,4 @@
-package sk.upjs.paz.calltree;
+package sk.upjs.calltree;
 
 import javax.swing.JPanel;
 import javax.swing.GroupLayout;
@@ -13,7 +13,7 @@ import javax.swing.text.Document;
 import javax.swing.text.SimpleAttributeSet;
 import javax.swing.text.StyleConstants;
 
-import sk.upjs.paz.calltree.MethodCall.LogRecord;
+import sk.upjs.calltree.MethodCall.LogRecord;
 
 import java.awt.Color;
 import java.util.List;

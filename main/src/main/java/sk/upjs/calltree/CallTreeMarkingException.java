@@ -1,4 +1,4 @@
-package sk.upjs.paz.calltree;
+package sk.upjs.calltree;
 
 /**
  * Thrown to indicate that calls to build a call tree do not follow rules.
