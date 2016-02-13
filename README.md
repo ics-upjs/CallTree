@@ -6,7 +6,16 @@ Comparing to other tools for visualization of call trees, this tool can be used 
 
 ##How to use the library
 
-* Add the library (`CallTree.jar`) to the class path (the build path of a project).
+* Add the library (`CallTree-1.0.0.jar`) to class path (build path) or use Maven to add dependency:
+  
+  ```
+  <dependency>
+    <groupId>sk.upjs</groupId>
+    <artifactId>calltree</artifactId>
+    <version>1.0.0</version>
+  </dependency>
+  ```
+  
 * Place API calls in your recursive methods. The most important API call is `CallTree.markCall` that must be placed as the first command of your recursive method(s).
 * Call `CallTree.markReturn` to store a value returned by recursive method.
 * Call `CallTree.log` to attach a log message to current execution of recursive method.
