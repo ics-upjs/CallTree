@@ -6,7 +6,7 @@ Comparing to other tools for visualization of call trees, this tool can be used 
 
 ##How to use the library
 
-* Add the library (`CallTree-1.0.0.jar`) to class path (build path) or use Maven to add dependency:
+* Add the library (`calltree-1.0.0.jar`) to class path (build path) or use Maven to add dependency:
   
   ```
   <dependency>
