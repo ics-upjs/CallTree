@@ -20,6 +20,8 @@ Comparing to other tools for visualization of call trees, this tool can be used 
 * Call `CallTree.markReturn` to store a value returned by recursive method.
 * Call `CallTree.log` to attach a log message to current execution of recursive method.
 
+##Example
+
 Original method: 
 ``` java
 public static int fib(int n) { 
